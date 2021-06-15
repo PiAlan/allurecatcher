@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+background-color: whitesmoke;
+color: black;
+font-family: Lato;
+text-decoration: none;
+}
+
+/* main {    min-height: 90vh;  } */
+
+#navbar {
+    background-color: black;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0%;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    word-spacing: unset;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+
+#navbar h1, h2 {
+    width: 78%;
+    display: inline-block;
+    letter-spacing: 8px;
+}
+
+ul {
+    text-align: right;
+    display: inline-block;
+    margin-right: 1rem;
+    word-spacing: 1.5rem;
+}
+
+h2 {
+font-size: 10px;
+}
+
+h3 {
+    padding-top: 7rem;
+    padding-left: 1rem;
+}
+
+p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.whitepigeon {
+margin-top: 12rem;
+margin-left: 35%;
+padding: 50px 50px 50px 50px;
+}
+
+.hands, .yk, .tc, .mc, .fc, .veiledface {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+footer {
+    text-align:right;
+    font-size: 12px;
+    position: relative;
+    padding: 1rem;
+    bottom: 0;
+}
+
+.fab fa-pinterest-p, .fab fa-instagram {
+    width:3px;
+    height: 3px;
+    padding: 1rem;
+}
+
+
+form {
+    padding: 1rem;
+    padding-top: 7rem;
+    vertical-align: middle; }
+
+.send {
+    border-radius: 10px;
+    border-style: round;
+    border-color: whitesmoke;
+}
